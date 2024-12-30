@@ -1,0 +1,170 @@
+main {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.next-generation-section {
+  padding-bottom: 9.9rem;
+  background-color: #090f1b;
+}
+
+.next-generation-section__name {
+  color: #3a68b8;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.next-generation-section__side-container {
+  padding-top: 4.3rem;
+  display: flex;
+  align-items: center;
+  gap: 11.4rem;
+}
+
+.next-generation-left-container {
+  width: 60.4rem;
+  padding-bottom: 5rem;
+}
+
+h1 {
+  width: 60.4rem;
+  font-size: 5.5rem;
+}
+
+.main-text {
+  font-size: 1.8rem;
+  width: 55.8rem;
+  line-height: 1.02;
+  opacity: 70%;
+}
+
+.generation-button-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.bottom-images-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7.1rem;
+}
+
+.bottom-images:hover {
+  opacity: 60%;
+}
+
+.apply-ai-section {
+  padding-bottom: 17rem;
+}
+
+.apply-ai-section__side-container {
+  display: flex;
+  align-items: center;
+  gap: 6.8rem;
+  padding-top: 13rem;
+}
+
+.apply-ai-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.marquee-container {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.boxes-container {
+  display: flex;
+  gap: 3rem;
+  padding-bottom: 5rem;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.boxes {
+  width: 36.2rem;
+  height: 38.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: center;
+  align-items: center;
+  background-color: #101622;
+  border-radius: 1rem;
+  padding: 3rem;
+  justify-content: center;
+  box-sizing: 36.2rem;
+}
+
+.boxes-heading {
+  display: flex;
+  opacity: 70%;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.25;
+  width: 30.2rem;
+}
+
+.box-text {
+  display: flex;
+  opacity: 70%;
+  width: 30.2rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+input[type="radio"] {
+  accent-color: #2c3647;
+  opacity: 50%;
+  outline: 0;
+  width: 1.5rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.client-section {
+  padding-top: 21.4rem;
+}
+
+.client-section__side-container {
+  padding-bottom: 17rem;
+  display: flex;
+  align-items: center;
+}
+
+.client-heading {
+  width: 55rem;
+  padding-bottom: 4rem;
+}
+
+.client-section-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

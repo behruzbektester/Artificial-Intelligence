@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  background-color: #0c121e;
+}
+
+.header-container {
+  padding-top: 2.1rem;
+  padding-bottom: 2.1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 2.25rem;
+  color: #3a68b8;
+  gap: 1.5rem;
+  &:hover {
+    color: #2afc;
+  }
+}
+
+.header-navs {
+  display: flex;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  padding-left: 8.3rem;
+  padding-right: 25.6rem;
+}
+
+.header-menu-list {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.item-link:hover {
+  color: #3a68b8;
+}

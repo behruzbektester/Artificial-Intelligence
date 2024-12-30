@@ -1,0 +1,140 @@
+.footer {
+  width: 100%;
+  background-color: #090f1b;
+}
+
+.footer-side-container {
+  padding-top: 7.71rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 14.6rem;
+  gap: 6.4rem;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo-container {
+  padding-bottom: 0.98rem;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.25rem;
+  color: #3a68b8;
+  gap: 1.5rem;
+  &:hover {
+    color: #2afc;
+  }
+}
+
+.footer-img {
+  width: 4.5rem;
+}
+
+.footer-text-container {
+  width: 32.1rem;
+  font-family: "Roboto";
+  padding-bottom: 3.7rem;
+}
+
+.footer-text {
+  opacity: 70%;
+}
+
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.address {
+  font-style: normal;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  &:hover {
+    opacity: 60%;
+  }
+}
+
+.footer-center {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-menu-list:not(:first-child) {
+  opacity: 70%;
+}
+
+.menu-link {
+  font-family: "Roboto";
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.265;
+}
+
+.menu-link:hover {
+  color: #3a68b8;
+}
+
+.footer-about-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding-bottom: 2.9rem;
+}
+
+.about-heading {
+  font-family: "Roboto";
+}
+
+.footer-about-text {
+  opacity: 70%;
+  width: 29.1rem;
+  font-size: 1.4rem;
+  line-height: 1.265;
+}
+
+.website-link {
+  font-family: "Roboto";
+  font-size: 1.4rem;
+  line-height: 1.265;
+  &:hover {
+    opacity: 60%;
+  }
+}
+
+.icons-container {
+  padding-top: 2.1rem;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.icons:hover {
+  opacity: 60%;
+}
+
+.language-changer {
+  display: flex;
+  padding-top: 5.27rem;
+}
+
+.language {
+  font-family: "Roboto";
+  padding-left: 0.8rem;
+  padding-right: 0.9rem;
+}
